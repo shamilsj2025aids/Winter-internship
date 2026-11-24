@@ -19,7 +19,7 @@ const Count = () => {
           variant="destructive"
           size="lg"
           className="h-16 px-6 text-3xl"
-          onClick={() => setCount(0)}
+          onClick={() => setCount((currentCount) => currentCount - 1)}
         >
           Delete
         </Button>
