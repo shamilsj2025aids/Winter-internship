@@ -1,8 +1,13 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
 
 const Count = () => {
   const [count, setCount] = useState(0)
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    console.log('UseEffect called')
+    }, [count])
 
   return (
     <main className="flex min-h-screen flex-col items-start gap-5 p-6 text-left">
