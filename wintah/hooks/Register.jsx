@@ -32,9 +32,9 @@ const Register = () => {
         }
     }
   return (
-    <div>
+    <div className="register-page">
         <h1>Register Form</h1>
-        <form onSubmit={handleSubmit}>
+        <form className="register-form" onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input id="name" type="text" name="name" onChange={handleChange} value={formData.name}/><br/>
             <label htmlFor="email">Email:</label>

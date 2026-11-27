@@ -1,16 +1,17 @@
-# React + Vite
+# Register and Products
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React and Vite app with a registration form and a product list fetched from Fake Store API.
 
-Currently, two official plugins are available:
+## Getting started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Run `npm install`.
+2. Run `npm run start`.
 
-## React Compiler
+Use the navigation bar to switch between Register and Products.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Available scripts
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run start` — start the development server.
+- `npm run build` — create a production build.
+- `npm run lint` — run ESLint.
+- `npm run preview` — preview the production build.
